@@ -207,3 +207,91 @@ h2 {
 .card .main-range {
     color: gray;
 }
+
+.page-footer {
+    background-color: #262626;
+    height: auto;
+    width: 100%;
+    padding: 56px 81px 40px 81px;
+}
+
+.page-footer .logo .UBER-text {
+    color:white;
+}
+
+.page-footer hr {
+    margin:0px; 
+    margin-bottom: 32px;
+    margin-top: 40px;
+}
+
+.page-footer .select-language-button {
+    width: 227px;
+    background-color: #3B3B3B;
+    border: none;
+    border-radius: 2px;
+    padding: 16px;
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-footer .select-language-button .world-and-language {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.page-footer .select-language-button .world-and-language img {
+    margin-right: 16px;
+}
+
+.page-footer .share-#-icons .share-icons img {
+    height: 16px;
+    width: 16px;
+}
+
+.page-footer ul {
+    list-style-type: none;
+
+}
+
+.page-footer li{
+    color: white;
+    margin-bottom: 30px;    
+}
+
+.footer-columns {
+    width: 70%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+    list-style-type: none;
+}
+
+.footer-columns .one-column {
+    height: 100%;
+    justify-content: space-between;
+}
+
+
+.page-footer .end-of-footer {
+    justify-content: space-between;
+}
+
+.page-footer .end-of-footer li{
+    display: inline; 
+    margin-right: auto;
+}
+
+.page-footer .images-to-share {
+    display: flex;
+    text-align: center;
+}
+
+.share-#-icons h3 span {
+    color: green;
+}
