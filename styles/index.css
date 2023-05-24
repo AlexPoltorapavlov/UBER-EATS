@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 body {
     position: relative;
     background: #FFFFFF;
@@ -5,6 +7,7 @@ body {
 
 body .page-header {
     padding: 0px 76px;
+    margin-bottom: 40px;
     width: auto ;
     display: flex;
     background-color: green;
@@ -138,4 +141,69 @@ body .profile-buttons .basket-button {
 
 body .main-content {
     padding: 0px 81px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+body .search-panel {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0px 81px;
+}
+
+body .search-panel .search-icon {
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    margin-right: 5px;
+
+}
+
+.search-text-input {
+    flex: 1;
+    width: calc(100% - 27px);
+    height: 22px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: none;
+    outline: none;
+}
+
+.search-label {
+    position: absolute;
+    left: 110px;
+}
+
+.search-panel input:valid~label,
+.search-panel input:focus~label {
+    display: none;
+}
+
+hr {
+    margin: 17px 76px 56px;
+}
+
+h2 {
+    margin: 0px 76px 40px;
+}
+
+.card {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+
+    width: 308px;
+    height: 366px;
+
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+.card .main-range {
+    color: gray;
 }
